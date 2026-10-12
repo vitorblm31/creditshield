@@ -13,3 +13,10 @@ O motor preditivo foi construído com foco em interpretabilidade comercial, gene
   * **Regularização Avançada:** Aplicação de *Dropout* (20%) e *Weight Decay* (L2) no otimizador Adam para combater o *overfitting*, estabilizando a acurácia orgânica em dados invisíveis na marca de 77%.
   * **Camada de Saída:** Ativação Sigmoide para conversão direta do risco em probabilidade percentual (0 a 1).
 * **Interface (MLOps):** *Dashboard* interativo em **Streamlit** (Smart Form). Permite que os operadores de crédito insiram apenas as 4 variáveis vitais da negociação na tela, enquanto o *backend* injeta automaticamente as 16 variáveis complementares com o perfil mediano do *dataset*, entregando o veredito instantaneamente sem atrito para o usuário.
+
+## ⚙️ Como Executar Localmente
+
+1. Clone o repositório e acesse a pasta do projeto:
+```bash
+git clone [https://github.com/SEU_USUARIO/creditshield.git](https://github.com/SEU_USUARIO/creditshield.git)
+cd creditshield
