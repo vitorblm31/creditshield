@@ -18,5 +18,5 @@ O motor preditivo foi construído com foco em interpretabilidade comercial, gene
 
 1. Clone o repositório e acesse a pasta do projeto:
 ```bash
-git clone [https://github.com/SEU_USUARIO/creditshield.git](https://github.com/SEU_USUARIO/creditshield.git)
+git clone https://github.com/vitorblm31/creditshield.git
 cd creditshield
